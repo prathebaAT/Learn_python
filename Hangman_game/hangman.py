@@ -22,7 +22,7 @@ def play_hangman():
             print("You've already guessed that letter.")
         elif guess in word_to_guess:
             guessed_letters.append(guess)
-            word_display = "".join([letter if letter in guessed_letters else "_" for letter in word_to_guess])
+            word_display = "".join([letter if letter in guessed_letters else "_" for letter in word_to_guess]) #list comprehension
         else:
             guessed_letters.append(guess)
             tries -= 1
