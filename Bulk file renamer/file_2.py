@@ -19,7 +19,7 @@ def bulk_rename(directory, prefix, start_number=1):
         print(f"Renamed: {old_file} -> {new_file}")
 
 # Define the directory, prefix, and starting number
-directory = "C:/Users/atb/Documents/Testcheck/"
+directory = "" #Your directory name
 prefix = input("Enter the prefix name :")
 start_number = int(input("Enter the starting sequence :"))
 

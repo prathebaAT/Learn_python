@@ -33,7 +33,7 @@ def search_and_replace(directory, search_pattern, replace_pattern, file_extensio
             print(f"Renamed: {old_file} -> {new_file}")
 
 
-directory = "C:/Users/atb/Documents/Testcheck/"
+directory = "" # directory name
 search_word = input("enter the search word:")
 search_pattern = fr"{search_word}"  
 replace_pattern = input("Enter the replace word :")  

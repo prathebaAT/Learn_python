@@ -2,7 +2,7 @@ import os
 
 def main():
     i = 0
-    path = "C:/Users/atb/Documents/Testcheck/"
+    path = "" # directory name
     for filename in os.listdir(path):
         my_file = "testname" + str(i) + ".txt"
         my_src = path + filename
