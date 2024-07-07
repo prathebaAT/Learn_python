@@ -2,14 +2,14 @@ import os
 import re
 
 def search_and_replace(directory, search_pattern, replace_pattern, file_extension=None):
-    """
-    Search for specific files in a directory and replace part of their names.
+    # """
+    # Search for specific files in a directory and replace part of their names.
 
-    :param directory: Directory to search for files
-    :param search_pattern: Pattern to search for in file names
-    :param replace_pattern: Pattern to replace the search pattern with
-    :param file_extension: Only consider files with this extension (optional)
-    """
+    # :param directory: Directory to search for files
+    # :param search_pattern: Pattern to search for in file names
+    # :param replace_pattern: Pattern to replace the search pattern with
+    # :param file_extension: Only consider files with this extension (optional)
+    # """
     # Compile the search pattern into a regex object
     search_regex = re.compile(search_pattern)
     
