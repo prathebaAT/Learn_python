@@ -45,7 +45,7 @@ class JobPortal:
 
 
 if __name__ == "__main__":
-    feed_url = 'https://remotive.com/remote-jobs/feed'
+    feed_url = ''
     portal = JobPortal(feed_url)
     portal.fetch_jobs()
     portal.print_job_listings()
